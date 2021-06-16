@@ -22,7 +22,7 @@ def generate_lucky_numbers(how_many: int) -> list:
     """Returns a list of (random) 'lucky' numbers."""
     lucky_numbers = []
     for _ in range(how_many):
-        lucky_numbers.append(random.randint(0, 99))
+        lucky_numbers.append(random.randint(0, how_many))
     return lucky_numbers
 
 
@@ -34,6 +34,10 @@ def create_fortune_cookie_message(how_many_lucky_numbers: int) -> str:
     # TODO: Create a fortune cookie message by calling generate_fortune() and
     # generate_lucky_numbers() and then composing and returning the fortune
     # cookie's message.
+    
+    fortune = generate_fortune()
+    luN = generate_lucky_numbers(how_many_lucky_numbers)
+    return("Your luck is this: {}. And your lucky numbers are: {}".format(fortune,luN))
 
     raise NotImplementedError()
 
