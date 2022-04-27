@@ -54,7 +54,7 @@ print("Opening NETCONF Connection to {}".format(env_lab.IOS_XE_1["host"]))
 # Open a connection to the network device using ncclient
 with manager.connect(
         host=env_lab.IOS_XE_1["host"],
-        port=env_lab.IOS_XE_1["netconf_port"],
+        port=830,
         username=env_lab.IOS_XE_1["username"],
         password=env_lab.IOS_XE_1["password"],
         hostkey_verify=False
