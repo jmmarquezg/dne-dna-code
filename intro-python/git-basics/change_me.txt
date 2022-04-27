@@ -4,3 +4,27 @@ New line.
 
 
 Este es otro cambio para checar como se ve el archivo antes del submit pero cuando ya esta en el staging area.
+
+Añadiendo esto desde branch dev
+
+
+Vamos a ver si podemos contar cuantas
+
+
+lineas hay en
+
+el archivo
+
+sin ver que podemo
+pero archivo
+la 
+llevamos
+
+
+jhfjshfj sds
+antesfsjdf 
+
+kzjhfjksd fs
+ dfkjhsdjfhs
+ vsd khjh
+ 
